@@ -1,0 +1,43 @@
+button { 
+    background: transparent;
+    background-color: none;
+    border: none;
+    
+}
+
+button img{
+    width:3vw;
+    cursor: pointer;  
+}
+
+input{
+    height: 3vh;
+    width: 30vw;
+    border-radius: 3px;
+    appearance: none;
+    border:none;
+    font-size: 20px;
+    color: gray;
+    font-weight: 800;
+    
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.inputField{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0,0,0,0.3);
+    width: 60vw;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:600px){
+    input{
+        font-size: 10px;
+    }
+}

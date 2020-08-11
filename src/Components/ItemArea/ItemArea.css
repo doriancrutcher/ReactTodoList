@@ -1,0 +1,34 @@
+.ItemStyle{
+    margin: 20px;
+    background-color: rgba(0,0,0,0.4);
+    width:30vw;
+    height:5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.75 ease;
+    font-size: 20px;
+
+}
+
+.ItemStyle:hover {
+color:rgb(255, 255, 255);
+font-weight: 600;
+font-size: 40;
+}
+
+.ItemStyle.Done{
+    text-decoration: line-through;
+}
+
+@media (max-width:600px){
+    .ItemStyle{
+        font-size: 10px;
+
+    }
+
+    .ItemStyle:hover {
+        font-size: 20px;
+    }
+}
