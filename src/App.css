@@ -1,5 +1,45 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+
+  
+}
+
+.movingBack{
+  height: 200vh;
+  width: 200vw;
+  position: fixed;
+  z-index: -1;
+  animation: backmove 9s infinite;
+
+
+background: rgb(2,0,36);
+background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+
+
+@keyframes backmove{
+  0%{right: -50%;}
+  50%{right:0%;}
+  100%{right:-50%;}
+
+}
+
+.TodoArea{
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  margin-top:20px;
+  color:white;
+  border-radius: 10px;
+
+
+
 }
 
 .App-logo {
